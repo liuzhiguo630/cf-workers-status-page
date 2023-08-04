@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: liao.world
+    name: liao.world
+    url: 'https://liao.world/zh'
+    method: GET
+    expectStatus: 200
