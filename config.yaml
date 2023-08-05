@@ -25,7 +25,7 @@ monitors:
 
   - id: liao-world-chat
     name: liao.world
-    url: 'https://status-api-worker.410915218.workers.dev/?address=liao.world'
+    url: 'https://status-api-worker.410915218.workers.dev/liao.world'
     method: GET
     linkable: false
     expectStatus: 200
@@ -33,13 +33,13 @@ monitors:
   - id: liaobots-3-5
     name: liaobots-3.5
     linkable: false
-    url: 'https://status-api-worker.410915218.workers.dev/?address=liaobots-3.5'
+    url: 'https://status-api-worker.410915218.workers.dev/liaobots-3.5'
     method: GET
     expectStatus: 200
 
   - id: liaobots-4
     name: liaobots-4
     linkable: false
-    url: 'https://status-api-worker.410915218.workers.dev/?address=liaobots-4'
+    url: 'https://status-api-worker.410915218.workers.dev/liaobots-4'
     method: GET
     expectStatus: 200
